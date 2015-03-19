@@ -1,0 +1,85 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	background: #E8E8E8;
+
+}
+
+.challenge > img {
+    float: left;
+    width: 60px;
+    padding-right: 20px;
+    margin-top: 10px;
+} 
+
+.challenge {
+	margin: 0.5em;
+	padding: 1em;
+	width: 85%;
+	height: 130px;
+	background-color: white;
+	font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+	border-radius: 5px;
+ 	box-shadow: 0px 2px 2px #989898;
+
+} 
+
+.challenge > h2 {
+ 
+    background-color: transparent;
+    color: #696969;
+    font-size: 1.5em;
+    position: relative;
+    top: -20px;
+    padding-left: 100px;
+   
+    
+}
+
+.challenge > p {
+  
+   
+    background-color: transparent;
+    color: gray;
+    font-size: 1em;
+    position: relative;
+    top: -30px;  
+    padding-left: 100px; 
+
+}
+
+.challenge > h3 {
+
+	color: orange;
+	position: relative;
+	top: -10px;
+    font-size: 1em;
+    
+
+}
+
+.myButton {
+    background-color:white;
+    -moz-border-radius:31px;
+    -webkit-border-radius:31px;
+    border-radius:18px;
+    border:2px solid #16AB91;
+    display:inline-block;
+    cursor:pointer;
+    color:#16AB91;
+    font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+    font-size:17px;
+    padding:12px 78px;
+    text-decoration:none;
+    position: relative;
+    top:-60px;
+    left:100px;
+}
+.myButton:hover {
+    background-color:white;
+}
+.myButton:active {
+    position:relative;
+    top:-60px;
+}
